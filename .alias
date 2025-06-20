@@ -1,0 +1,12 @@
+# Git aliases with 'gg' prefix
+alias ggpull='git pull origin $(git branch --show-current)'
+alias ggpush='git push --set-upstream origin $(git branch --show-current)'
+alias ggch='git checkout'
+alias ggf='git fetch'
+alias ggc='git commit'
+alias ggst='git status'
+alias ggd='git diff'
+alias ggl='git log'
+alias ggb='git branch'
+alias ggbranch='git branch --show-current | tr -d "\n" | pbcopy && echo "Branch name copied to clipboard: $(git branch --show-current)"'
+alias gga='git add'
