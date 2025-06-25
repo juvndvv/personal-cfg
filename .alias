@@ -10,3 +10,6 @@ alias ggl='git log'
 alias ggb='git branch'
 alias ggbranch='git branch --show-current | tr -d "\n" | pbcopy && echo "Branch name copied to clipboard: $(git branch --show-current)"'
 alias gga='git add'
+
+# Laravel Sail alias
+alias sail='./vendor/bin/sail'
